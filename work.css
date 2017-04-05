@@ -1,0 +1,106 @@
+#BG2 {
+    /*background-image: url(BG1.jpg); /*網頁背景*/
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -2;    /*z-index 圖層順序:https://goo.gl/pfavNN*/
+}
+body{
+  font-family: 微軟正黑體;
+}
+a {    /*超連結顏色*/
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+  color: yellow;
+}
+h2 {
+    margin-top: 0;
+}
+div{
+  font-family: 微軟正黑體;
+}
+.left{
+  float: left;
+  margin-right: 10px;
+}
+table.one img {
+    opacity: 0.5;    /*不透明度(1最大，0最小)*/
+    cursor: pointer;
+}
+
+table.one img:hover {
+    opacity: 1;
+    transition: 1s;
+}
+#west {    /*西洋畫家*/
+    position: relative;
+}
+
+#west .sea {    /*#id .class*/
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("italia.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-size: cover;
+    z-index: -1;
+}
+
+#tw {    /*台灣畫家*/
+    position: relative;
+}
+
+#tw .chen {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("tw.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-size: cover;
+    z-index: -1;
+}
+
+#china {    /*中國畫家*/
+    position: relative;
+}
+
+#china .din {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("chin.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-size: cover;
+    z-index: -1;
+
+}
+
+#cxc{
+  position: relative;
+}
+
+#cxc.container{
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: left;
+  font-family: 微軟正黑體;
+  opacity: 0.5;
+}
+
+img.ccc{
+  opacity: 1;
+}
+
+.ccc1{
+  opacity: 1;
+}
